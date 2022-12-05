@@ -10,6 +10,7 @@ int main(){
     if (carattere(a)){
 
         a=conversione(a);
+        cout << "Vero" << endl;
         cout << a << endl;
 
     } else {
