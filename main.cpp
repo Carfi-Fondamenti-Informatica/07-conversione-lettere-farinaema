@@ -9,7 +9,7 @@ int main(){
     cin >> a;
     if (carattere(a)){
 
-        conversione(a);
+        conversione(&a);
         cout << a << endl;
 
     } else {
