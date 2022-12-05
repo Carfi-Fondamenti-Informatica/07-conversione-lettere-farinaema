@@ -13,7 +13,7 @@ bool carattere( char a ){
     return true;
 }
 
-void conversione (char a){
+cahr conversione (char a){
 
     int n;
     n = (int) a;
