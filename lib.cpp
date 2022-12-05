@@ -13,7 +13,7 @@ bool carattere( char a ){
     return true;
 }
 
-void conversione (char &a){
+void conversione (char a){
 
     int n;
     n = (int) a;
@@ -21,10 +21,12 @@ void conversione (char &a){
 
         n = n + 32;
         a = (char) n;
+        return a;
     }
 
     n= n-32;
     a = (char) n;
+    return a;
 }
 
 int main(){
