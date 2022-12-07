@@ -1,2 +1,2 @@
 bool carattere( char a );
-char conversione (char a);
+void conversione (char a);
