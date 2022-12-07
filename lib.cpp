@@ -28,7 +28,3 @@ char conversione (char a){
     a = (char) n;
     return a;
 }
-
-int main(){
-    return 0;
-}
