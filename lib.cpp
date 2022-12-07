@@ -13,18 +13,20 @@ bool carattere( char a ){
     return true;
 }
 
-char conversione (char a){
+char conversione (char &a){
 
     int n;
     n = (int) a;
+
     if( n>=65 and n<=90){
 
         n = n + 32;
         a = (char) n;
         return a;
-    }
+    } else if ( n >= 97 and n <= 122) {
 
-    n= n-32;
-    a = (char) n;
-    return a;
+        n = n - 32;
+        a = (char) n;
+        return a;
+    }
 }
