@@ -24,11 +24,13 @@ void conversione (char &a){
 
         n = n + 32;
         a = (char) n;
+        cout << a << endl;
         
     } else if ( n >= 97 and n <= 122) {
 
         n = n - 32;
         a = (char) n;
+        cout << a << endl;
         
     }
 }
