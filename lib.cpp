@@ -15,7 +15,7 @@ bool carattere( char a ){
     return false;
 }
 
-char conversione (char &a){
+void conversione (char &a){
 
     int n;
     n = (int) a;
