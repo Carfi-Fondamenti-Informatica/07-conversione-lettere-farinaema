@@ -7,10 +7,10 @@ int main(){
     char a;
 
     cin >> a;
-    if (carattere(a)==true){
+    if (carattere(a)){
 
         conversione(a);
-        cout << a << endl;
+
 
     } else {
 
