@@ -1,2 +1,2 @@
-bool carattere( char &a );
+bool conversione( char &a );
 
