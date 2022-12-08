@@ -9,7 +9,6 @@ int main(){
     cin >> a;
     if (carattere(a)){
 
-        carattere(a);
         cout << a << endl;
 
 
