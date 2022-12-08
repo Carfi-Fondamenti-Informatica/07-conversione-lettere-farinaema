@@ -9,7 +9,8 @@ int main(){
     cin >> a;
     if (carattere(a)){
 
-        conversione(a);
+        carattere(a);
+        cout << a << endl;
 
 
     } else {
