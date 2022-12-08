@@ -7,7 +7,7 @@ int main(){
     char a;
 
     cin >> a;
-    if (carattere(a)){
+    if (conversione(a)){
 
         cout << a << endl;
 
