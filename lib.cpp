@@ -2,35 +2,27 @@
 #include "lib.h"
 using namespace std;
 
-bool carattere( char a ){
+bool conversione( char &a ){
     int n;
     n = (int) a;
     cout << n << endl;
-    if ( n>= 65 and n<=90 ){
-        return true;
-    } else if ( n>=97 and n<=122) {
-        return true;
-    }
-
-    return false;
-}
-
-void conversione (char &a){
-
-    int n;
-    n = (int) a;
-
-    if( n>=65 and n<=90){
+    if ( (n>= 65 and n<=90) or (n >= 97 and n <= 122) ){
+       
+        if( n>=65 and n<=90){
 
         n = n + 32;
         a = (char) n;
-        cout << a << endl;
-        
-    } else if ( n >= 97 and n <= 122) {
+    
+        } else if ( n >= 97 and n <= 122){
 
         n = n - 32;
         a = (char) n;
-        cout << a << endl;
+   
+        }
+        return true;
+    } else {
+
+    return false;
         
     }
 }
