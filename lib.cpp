@@ -4,16 +4,16 @@ using namespace std;
 
 bool conversione( char &a ){
        
-        if( n>=65 and n<=90){
+        if( a>=65 and a<=90){
 
-        n = n + 32;
-        a = (char) n;
-            return true;
-        } else if ( n >= 97 and n <= 122){
+        a = a+ 32;
+        return true
+               
+        } else if ( a >= 97 and a <= 122){
 
-        n = n - 32;
-        a = (char) n;
-           return true;
+        a = a - 32;
+        return true;
+               
         } else {
 
         return false;
